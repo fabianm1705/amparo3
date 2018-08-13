@@ -1,0 +1,70 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Amparo SRL</title>
+<link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+<link href="utilidades/css/estilos.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70202908-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<header>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-4 ">
+            <H5 class="font_8"><span class="glyphicon glyphicon-map-marker colorheader"></span>  Cura Alvarez 615, Paraná, E. Ríos</H5></div>
+             <div class="col-md-4"></div>
+             <div class="col-md-4"><H5 class="font_8"><span class="glyphicon glyphicon-earphone colorheader"></span> Tel: 4235108, 154-057991</H5></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4"><BR>
+            <h1 class="text-center login-title">INCIAR SESIÓN PARA CONTINUAR</h1>
+            <div class="account-wall">
+                <form id="formUsuario" name="formUsuario" class="form-signin" action="contenedorPagina.php" method="post" enctype="multipart/form-data">
+                <input  name="login"  id="login"  type="text" class="form-control" placeholder="Usuario" required autofocus>
+                <input id="password"  name="password" type="password" class="form-control" placeholder="Contraseña" required>
+                <input name="deDonde" type="hidden" value="pagina" />
+                <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">
+                    INGRESAR</button>
+                </form>
+            </div>
+             					<div id="error" class="noVisible">Acceso denegado.</div>
+        </div>
+    </div><BR>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row " >
+            <div class="col-md-4 "><H5 class="font_8">© 2017 por Amparo SRL <br><span class="glyphicon glyphicon-map-marker colorheader"></span> Cura Alvarez 615, Paraná, E. Ríos</H5></div>
+             <div class="col-md-4"><H5 class="font_8"><span class="glyphicon glyphicon-earphone colorheader"></span> Tel: 4235108, 154-057991</H5></div>
+             <div class="col-md-4"><H5 class="font_8"><a href="https://www.facebook.com/amparosrl/"><img src="img/facebook.png" width="16" height="30" class="img-responsive"></a></H5></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<script src="bootstrap-3.3.7-dist/js/bootstrap.js" ></script>
+</body>
+</html>
