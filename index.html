@@ -14,6 +14,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
     <link href="./css/material-kit.css?v=2.0.3" rel="stylesheet" />
+    <!-- YOUTUBE POPUP -->
+    <link rel="stylesheet" href="https://grt107.github.io/grt-youtube-popup/grt-youtube-popup.css">
+    <script src="https://grt107.github.io/grt-youtube-popup/grt-youtube-popup.js"></script>
+    <script>
+        // YOUTUBE POPUP
+        $(".youtube-link").grtyoutube();
+    </script>
     <!-- jquery library -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -56,110 +63,8 @@
         })
       })
     </script>
-    <script>
-    /*
-    var VASKIT_SERVER = "https://www.vaskit.com";
-    var API = "https://www.vaskit.com/_vaskitapi";
-    var API_ROOT = "/var/www/vaskit.com/public_html/_vaskitapi";
-    var ROOT = "/var/www/vaskit.com/public_html";
-    var ROOT_API = "/var/www/vaskit.com/public_html/_vaskitapi";
-    var VASKIT = "https://www.vaskit.com";
-    var VASKIT_SERVER = "https://www.vaskit.com";
-    var SERVER = "https://www.vaskit.com";
-    var API = "https://www.vaskit.com/_vaskitapi";
-    var ROOT = "/var/www/vaskit.com/public_html";
-    var ROOT_API = "/var/www/vaskit.com/public_html/_vaskitapi";
-    var API_ROOT = "/var/www/vaskit.com/public_html/_vaskitapi";
-    var APPS = "https://www.vaskit.com/_vaskitapi/commons/apps.php";
-    var PATH_APP_TURNOS = "https://www.vaskit.com/_app/turnos";
-    var PATH_API_COMMONS = "https://www.vaskit.com/_vaskitapi/commons";
-    var PATH_IMAGE_UPLOADS = "https://www.vaskit.com/_vaskitapi/commons/uploads";
-
-    var PATH_APP_TURNOS = "https://www.vaskit.com/_app/turnos";
-    var PATH_APP_SCANNER = "https://www.vaskit.com/_app/scanner";
-    var PATH_APP_SUPERLIST = "https://www.vaskit.com/_app/superlist";
-    var PATH_APP_STREETS = "https://www.vaskit.com/_app/streets";
-    var PATH_APP_DELIVERY = "https://www.vaskit.com/_app/delivery";
-    var PATH_APP_PARTEI = "https://www.vaskit.com/_app/partei";
-
-    var LANG = '';
-    var CITY = '';
-    var CITY_LAT_LON = '';
-    var CITY_COUNTRY = '';
-    var LANGCALLBACK = function() {};
-    */
-
-</script>
-
-<!-- barcode scanner library -->
-<!--<script src="https://www.vaskit.com/_vaskitapi/js/barcodescanner/quagga.min.js"></script>-->
-
-<!-- datepickr library -->
-<!--<script src="https://www.vaskit.com/_vaskitapi/js/datepickr/datepickr.js"></script>-->
-
-<!-- my JS functions -->
-<!--<script src="https://www.vaskit.com/_vaskitapi/js/ABMManager.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/code.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/empresasDelUsuario.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/FullCalendar.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getChatServer.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getEmpresaId.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getEmpresasDelUsuarioAndSelectOne.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getFullUserNameAndLastFromCookies.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getJSON.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getNombreEmpresaFirmada.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getToken.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getUserIdByEmpresaId.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getUserIdByEmpresaIdWithFieldId.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getUserInfo.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getUserInfoByEmail.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getUserInfoById.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getValueFromParams.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/isTokenValid.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/jquery.browserLanguage.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/timePicker.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/utils.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/getNextFileId.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/geolocation/geolocation.js"></script>
-<script src="https://www.vaskit.com/_vaskitapi/js/isOwner.js"></script>-->
-
-<!-- bearing -->
-<!--<script defer src="https://www.vaskit.com/_vaskitapi/js/bearing/latlon-spherical.js"></script>
-<script defer src="https://www.vaskit.com/_vaskitapi/js/bearing/dms.js"></script>
-<script defer src="https://www.vaskit.com/_vaskitapi/js/bearing/bearing.js"></script>-->
-
-<!-- socket.io -->
-<!--<script src="https://www.vaskit.com/_vaskitapi/3rdparty/socket.io-client/dist/socket.io.js"></script>-->
-
-<!-- fingerprint library -->
-<!--<script src="https://www.vaskit.com/_vaskitapi/js/fingerprint/dist/client.min.js"></script>-->
-
-
-<!-- css vaskit -->
-<!--<link rel="stylesheet" href="https://www.vaskit.com/_vaskitapi/js/datepickr/datepickr.css">-->
-
 <!-- Angular -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
-<!--<script src="https://www.vaskit.com/_vaskitapi/js/angular_routines.js"></script>-->
-
-<!--
-<script>
-    $.browserLanguage(function(language, code, city, cityLatLon, cityCountry) {
-        LANG = language;
-        CITY = city;
-        CITY_LAT_LON = cityLatLon;
-        CITY_COUNTRY = cityCountry;
-        console.log(LANG + ", " + CITY + ", " + CITY_LAT_LON + ", " + CITY_COUNTRY );
-        try {
-            if (LANGCALLBACK !== undefined) {
-                LANGCALLBACK(language, code, city, cityLatLon, cityCountry);
-            }
-        } catch(ex) {
-            console.log(ex);
-        }
-    });
-</script>-->
-
 <style>
     .card-header {
         background:#2196f3;
@@ -191,12 +96,6 @@
         cursor:pointer;
     }
 </style>
-
-<!-- fullcalendar -->
-<link href='https://www.vaskit.com/_vaskitapi/3rdparty/fullcalendar/fullcalendar.min.css' rel='stylesheet' />
-<link href='https://www.vaskit.com/_vaskitapi/3rdparty/fullcalendar/fullcalendar.print.min.css' rel='stylesheet' media='print' />
-<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js'></script>
-<script src='https://www.vaskit.com/_vaskitapi/3rdparty/fullcalendar/fullcalendar.min.js'></script>
 </head>
 
 <body class="landing-page sidebar-collapse">
@@ -306,7 +205,7 @@
                             Recibe toda la información que necesitas sin compromiso alguno,
                             dejanos tus datos y un promotor se pondrá en contacto.
                         </h4>
-                        <form name="contactform" method="post" action="form_email.php">
+                        <form name="contactform" method="post" action="https://fabianm1705.github.io/amparo3/form_email.php">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -387,27 +286,6 @@
 
 
     </footer>
-<!--
-    <div id="divAbout"  class="main-raised"
-         style="margin:2em; padding:4em; background:#fff; display:none;" align="center">
-        <h2 class="title">
-            Sobre Nosotros
-        </h2>
-        <h5 class="description">
-            Amparo es una empresa de Servicios Sociales de Paraná,
-            nacida en 2003 y comprometida con el desarrollo de la ciudad y su gente.
-            Prestamos un servicio solidario que permite a mucha gente disponer de
-            un sepelio de excelencia, tener asistencia médica a un bajo costo y servicios varios.
-            Somos conscientes de la responsabilidad que implica para con nuestra gente
-            y trabajamos día a día para estar a la altura de esa responsabilidad.
-            Contamos en nuestro haber con la experiencia de estos años y el aval de nuestros
-            afiliados por el hecho de cumplir. Somos una organización de probada responsabilidad
-            y preocupada por brindar nuestros servicios en forma accesible y eficaz.
-        </h5>
-        <hr>
-        <input type="button" value="Cerrar" class="btn btn-primary btn-raised"
-               onClick="javascript:closeAbout()" />
-    </div>-->
 <br>
     <!--   Core JS Files   -->
     <script src="https://www.vaskit.com/_vaskitapi/3rdparty/material-kit-html-v2.0.3/examples/../assets/js/core/jquery.min.js" type="text/javascript"></script>
@@ -421,13 +299,6 @@
     <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
     <script src="https://www.vaskit.com/_vaskitapi/3rdparty/material-kit-html-v2.0.3/examples/../assets/js/material-kit.js?v=2.0.3" type="text/javascript"></script>
 
-    <!-- YOUTUBE POPUP -->
-    <link rel="stylesheet" href="https://grt107.github.io/grt-youtube-popup/grt-youtube-popup.css">
-    <script src="https://grt107.github.io/grt-youtube-popup/grt-youtube-popup.js"></script>
-    <script>
-        // YOUTUBE POPUP
-        $(".youtube-link").grtyoutube();
-    </script>
 
     <script>
         function contacto() {
