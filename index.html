@@ -16,16 +16,6 @@
   <!-- CSS Files -->
   <link href="./css/material-kit.css?v=2.0.4" rel="stylesheet" />
   <!-- jquery library -->
-<script type="text/javascript">
-  function enviarForm($form){
-    $.ajax({
-      url: "https://formspree.io/amparoserviciossociales@gmail.com",
-      method: "POST",
-      data: {message: "hello!"},
-      dataType: "json"
-    })
-  }
-</script>
   <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -182,7 +172,7 @@
                       Recibe toda la información que necesitas sin compromiso alguno,
                       dejanos tus datos y un promotor se pondrá en contacto.
                   </h4>
-                  <form name="contactform" method="post" action="enviarForm()">
+                  <form name="contactform" id="contact-form" method="post" action="enviarForm()">
                       <div class="row">
                           <div class="col-md-6">
                               <div class="form-group">
@@ -275,6 +265,7 @@
       $(".youtube-link").grtyoutube();
   </script>
   <script src="main.js" type="text/javascript"></script>
+  <script src="form_object.js" type="text/javascript"></script>
 
 </body>
 

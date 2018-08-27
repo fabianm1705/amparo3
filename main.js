@@ -1,13 +1,16 @@
-function salta(enlace) {
-    if (enlace != "")
-        document.location = enlace;
-}
+$("#contact-form").on("submit", function(ev){
+  ev.preventDefault()
+
+  sendForm($(this))
+
+  return false
+})
 
 function enviarForm($form){
   $.ajax({
-    url: "https://formspree.io/amparoserviciossociales@gmail.com",
+    url: $form.attr("action"),
     method: "POST",
-    data: {message: "hello!"},
+    data: $form.formObject(),
     dataType: "json"
   })
 }
