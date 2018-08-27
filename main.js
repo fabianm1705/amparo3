@@ -1,7 +1,7 @@
 $("#contact-form").on("submit", function(ev){
   ev.preventDefault()
 
-  sendForm($(this))
+  enviarForm($(this))
 
   return false
 })
