@@ -7,6 +7,7 @@ $("#contact-form").on("submit", function(ev){
 })
 
 function enviarForm($form){
+  console.log($form.formObject())
   $.ajax({
     url: $form.attr("action"),
     method: "POST",
