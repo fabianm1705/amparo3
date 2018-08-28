@@ -17906,4 +17906,10 @@ footer .pull-center {
   }
 }
 
+@media screen and (max-width: 980px) {
+div#ocultodecelu {
+display: none;
+}
+}
+
 /*# sourceMappingURL=kit-free.css.map */
